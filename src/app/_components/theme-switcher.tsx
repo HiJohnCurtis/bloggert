@@ -78,6 +78,11 @@ const Switch = () => {
     updateDOM();
   }, [mode]);
 
+  useEffect(() => {
+    // Initial update
+    updateDOM?.();
+  }, []);
+
   /** toggle mode */
   const handleModeSwitch = () => {
     const index = modes.indexOf(mode);
