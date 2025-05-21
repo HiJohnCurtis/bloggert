@@ -7,7 +7,7 @@ export function Footer() {
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Follow me on Twitter
+            My Socials
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
@@ -19,6 +19,8 @@ export function Footer() {
             <a
               href={`https://github.com/HiJohnCurtis/bloggert`}
               className="mx-3 font-bold hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               View on GitHub
             </a>
