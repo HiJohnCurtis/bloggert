@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "get-date": "node scripts/get-date.js"
   },
   "dependencies": {
     "classnames": "^2.5.1",
@@ -22,6 +23,7 @@
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   }
 }
